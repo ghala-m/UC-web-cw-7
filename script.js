@@ -33,3 +33,7 @@ movies.forEach((movie) => {
 });
 
 
+
+
+let random = Math.floor(Math.random()* movies)
+movies[random]
